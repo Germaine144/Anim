@@ -16,7 +16,7 @@ header{
    top: 0%;
    right: 0%;
    z-index: 1000;
-   padding:35px 7%;
+   padding: ;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -52,7 +52,7 @@ header{
     border: 2px solid;
     border-radius: 7px;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     transition: all .6s ease ;
 }
@@ -65,11 +65,11 @@ header{
 #menu-icon{
     font-size: 42px;
     z-index: 10001;
-    cursor: pointer;
+    cursor:pointer;
     margin-left: 25px;
 }
 section{
-    padding-inline: 0 50%;
+    padding: 0 14%;
 }
 .hero{
     position: relative;
@@ -79,16 +79,16 @@ section{
     background-size: cover;
     background-position: center;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
 }
-.hero-image{
+.hero-image img {
     width: 100%;
     height: auto;
 }
 .hero-text h1{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 900;
     margin: 15px 0;
 }
@@ -101,7 +101,7 @@ section{
  width: 100%;
  max-width: 620px;
  font-size: 18px;
- font-weight: 400;
+ font-weight: 300;
  line-height: 32px;
  color: white;
  margin-bottom: 40px;
@@ -117,7 +117,7 @@ section{
     border: 2px solid transparent;
     border-radius: 7px;
     color: white;
-    font-size: 15ox;
+    font-size: 15px;
     font-weight: 500;
     transition: all .6s ease;
     margin-right: 20px;
@@ -139,8 +139,14 @@ section{
    margin-left: 15px;
 }
 .icons{
-    position: absolute;
+    position: relative;
     top: 50%;
     padding: 0 7%;
-    transform: translate(-50%);
+}
+.icons i {
+   display: block;
+   margin: 35px 0;
+   columns: white;
+   font-size: 23px;
+   transition: all .6s; 
 }
